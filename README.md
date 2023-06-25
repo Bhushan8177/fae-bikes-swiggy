@@ -6,7 +6,7 @@ This app provides you beautiful landing page where I have used react-native-navi
 
 ## Acknowledgements
 
- - Apk Link: [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - Apk Link: [Swiggy-Clone](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
 
 
 
