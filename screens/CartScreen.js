@@ -37,7 +37,7 @@ const CartScreen = () => {
             iconName: "phone-alt",
         },
     ];
-
+    // console.log("CartScreen",route.params);
     return (
         // <ScrollView style={{ marginTop: 50}}>
         <>
@@ -163,7 +163,7 @@ const CartScreen = () => {
                             <Text style={{ fontSize: 16, fontWeight: "600" }}>Delivery Instructions</Text>
                             <ScrollView horizontal style={{ marginTop: 10 }} showsHorizontalScrollIndicator={false}>
                                 {instructions.map((item, index) => (
-                                    <Pressable style={{ margin: 10, borderRadius: 10, padding: 10, backgroundColor: "#fff" }}>
+                                    <Pressable key={index} style={{ flex:1, width: 100, height: 100,textAlign: "center", justifyContent: "center", alignItems: "center",margin: 10, borderRadius: 10, padding: 10, backgroundColor: "#fff" }}>
                                         <View>
                                             <FontAwesome5 name={item.iconName} size={22} color={"gray"} />
                                             <Text style={{ width: 80, fontSize: 13, color: "#383838", padding: 4 }}>{item.name}</Text>
@@ -241,7 +241,9 @@ const CartScreen = () => {
 
                     <Pressable
                         onPress={() => {
-                            navigation.navigate("Loading");
+                            navigation.navigate("Loading",{
+                                name: route.params.name,
+                            });
                             dispatch(cleanCart());
                         }}
                         style={{

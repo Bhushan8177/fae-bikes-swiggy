@@ -6,34 +6,39 @@ const FoodTypes = () => {
     const types = [
         {
             id: "0",
-            image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/rwnkrdtnusqdkyjssahq",
-            name: "Biriyani",
+            image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            name: "Biryani",
         },
         {
             id: "1",
-            image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/qwrkgxefwzjergtzowsc",
+            image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzc2VydHxlbnwwfHwwfHx8MA%3D%3D",
             name: "Dessert"
         },
         {
             id: "2",
-            image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/uckbx3rr87jhakb81mbs",
+            image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             name: "Burger"
         },
         {
             id: "3",
-            image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/z9xmu9pb65lcbt3wepud",
+            image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2FsYWR8ZW58MHx8MHx8fDA%3D",
             name: "Salad",
 
         },
         {
             id: "4",
-            image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/m7osxfhdon2opecztidb",
+            image: "https://media.istockphoto.com/id/1267115650/photo/tasty-cheesy-sandwich.jpg?s=1024x1024&w=is&k=20&c=ISMyCxo0pF2MVB6Z1alsDY-ld8TCUGhaHQ75YCSJc9E=",
             name: "Sandwiches"
+        },
+        {
+            id: "5",
+            image: "https://images.unsplash.com/photo-1613564834361-9436948817d1?q=80&w=2843&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            name: "Pizza"
         }
     ];
 
     const renderItem = ({ item }) => (
-        <View style={{ margin : 10}}>
+        <View style={{ marginHorizontal: 10, marginVertical: 20}}>
             <Image 
                 source={{ uri: item.image }} 
                 style={{ width: 60, height: 60, borderRadius:30}}

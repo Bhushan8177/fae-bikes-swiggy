@@ -8,7 +8,7 @@ const MenuItem = ({ item }) => {
     // console.log(item)
     const navigation = useNavigation();
     return (
-        <View style={{ margin: 10 }}>
+        <View style={{ margin: 15 }}>
             <Pressable onPress={() => navigation.navigate("Menu", {
                 id: item.id,
                 name: item.name,

@@ -2,15 +2,19 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import AnimatedLottieView from 'lottie-react-native'
 import { useEffect } from 'react'
+import { useRoute } from '@react-navigation/native'
 import { useNavigation } from '@react-navigation/native'
 
 const LoadingScreen = () => {
 
     const navigation = useNavigation();
-
+    const route = useRoute();
+    // console.log("LoadingScreen",route.params);
     useEffect(() => {
         setTimeout(() => {
-            navigation.replace("Order")
+            navigation.replace("Order", {
+                name: route.params.name,                            
+            })
         }, 2000)
     }, [])
     return (
