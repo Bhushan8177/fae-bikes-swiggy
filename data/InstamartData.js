@@ -1,8 +1,8 @@
 export default [
     {
         id:0,
-        image:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jjzpq6be8t8lp80gaa8x",
-        name:"Chinese Culture",
+        image:"https://5.imimg.com/data5/ANDROID/Default/2022/3/QC/FB/QF/124753872/product-jpeg-500x500.jpg",
+        name:"Maggie",
         rating:4.4,
         time:"30-40",
         adress:"Residency Road, Ashok Nagar",
@@ -130,8 +130,8 @@ export default [
     },
     {
         id:1,
-        image:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/qehqwipmklezcu5h9qrk",
-        name:"Hyderabadi Lazeez",
+        image:"https://m.media-amazon.com/images/I/71GUFttn0jL._AC_UF1000,1000_QL80_.jpg",
+        name:"Onions",
         rating:4.2,
         time:"30-40",
         adress:"Richmond Town, Ashok Nagar ",
@@ -259,8 +259,8 @@ export default [
     },
     {
         id:2,
-        image:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/010dae5e9f6e71decb769c6fe784fcbc",
-        name:"Dairy Day Ice Creams",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_XNp7esV8qLPGXlpsMMlDYeCMdzMq6Af5t0GwdINBzA&s",
+        name:"Tomatoes",
         rating:4.3,
         time:"45-50",
         adress:"Residency Road, Shantinagar",
@@ -389,8 +389,8 @@ export default [
     },
     {
         id:2,
-        image:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/010dae5e9f6e71decb769c6fe784fcbc",
-        name:"Dairy Day Ice Creams",
+        image:"https://5.imimg.com/data5/UV/IF/MY-41885957/potatoes.jpg",
+        name:"Potatoes",
         rating:4.3,
         time:"45-50",
         adress:"Residency Road, Shantinagar",
@@ -519,8 +519,8 @@ export default [
     },
     {
         id:2,
-        image:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/010dae5e9f6e71decb769c6fe784fcbc",
-        name:"Dairy Day Ice Creams",
+        image:"https://www.shutterstock.com/image-photo/coconut-half-leaves-on-white-600nw-393850891.jpg",
+        name:"Cocounuts",
         rating:4.3,
         time:"45-50",
         adress:"Residency Road, Shantinagar",
@@ -649,8 +649,8 @@ export default [
     },
     {
         id:2,
-        image:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/010dae5e9f6e71decb769c6fe784fcbc",
-        name:"Dairy Day Ice Creams",
+        image:"https://t4.ftcdn.net/jpg/02/28/90/67/360_F_228906712_r4bb71gSmKvyDHq54JvjXAhKWpQiqWvX.jpg",
+        name:"Carrot",
         rating:4.3,
         time:"45-50",
         adress:"Residency Road, Shantinagar",

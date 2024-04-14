@@ -11,6 +11,7 @@ import React, { useEffect, useRef, useState } from "react";
 import moment from "moment";
 import MapView, { Marker, Polyline } from "react-native-maps";
 import { Ionicons, FontAwesome5 } from "@expo/vector-icons";
+import { cleanCart } from "../redux/CartReducer";
 
 const OrderScreen = () => {
   const [tip, setTip] = useState(0);
@@ -50,7 +51,9 @@ const OrderScreen = () => {
         }}
       >
         <Ionicons
-          onPress={() => navigation.navigate('Home')}
+          onPress={
+            () => navigation.navigate('Home')
+          }
           name="arrow-back"
           size={24}
           color="black"

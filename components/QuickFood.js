@@ -57,7 +57,7 @@ const QuickFood = () => {
 
   return (
     <View style={{ margin: 10 }}>
-      <Text style={{ fontSize: 16, fontWeight: "500" }}>Get it Quickly</Text>
+      <Text style={{ fontSize: 20, fontWeight: "500", marginVertical: 5, marginBottom: 10}}>Get it Quickly</Text>
       <FlatList
         data={data}
         renderItem={renderItem}
